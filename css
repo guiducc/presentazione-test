@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #009246, white, #ce2b37);
+}
+
+.screen {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.zones button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}
