@@ -8,61 +8,61 @@
 
 <body>
 
-  <div id="app">
+<div id="app">
 
-    <!-- HOME -->
-    <section id="home" class="screen active">
-      <h1>🏍️ Moto Italia</h1>
-      <p>Scopri le moto più usate in Italia</p>
-      <button onclick="goMap()">Inizia</button>
-    </section>
+  <!-- HOME -->
+  <section id="home" class="screen active">
+    <h1>🏍️ Moto Italia</h1>
+    <p>Scopri le moto più usate in Italia</p>
+    <button onclick="goMap()">Inizia</button>
+  </section>
 
-    <!-- MAPPA -->
-    <section id="map" class="screen">
-      <h2>Seleziona zona</h2>
+  <!-- MAPPA -->
+  <section id="map" class="screen">
+    <h2>Seleziona zona</h2>
 
-      <div class="zones">
-        <button onclick="selectZone('nord')">Nord</button>
-        <button onclick="selectZone('centro')">Centro</button>
-        <button onclick="selectZone('sud')">Sud</button>
-      </div>
+    <div class="zones">
+      <button onclick="selectZone('nord')">Nord</button>
+      <button onclick="selectZone('centro')">Centro</button>
+      <button onclick="selectZone('sud')">Sud</button>
+    </div>
 
-      <button onclick="goHome()">Indietro</button>
-    </section>
+    <button onclick="goHome()">Indietro</button>
+  </section>
 
-    <!-- REGIONI -->
-    <section id="regions" class="screen">
-      <h2 id="zoneTitle"></h2>
-      <div id="regionsList"></div>
-      <button onclick="goMap()">Indietro</button>
-    </section>
+  <!-- REGIONI -->
+  <section id="regions" class="screen">
+    <h2 id="zoneTitle"></h2>
+    <div id="regionsList"></div>
+    <button onclick="goMap()">Indietro</button>
+  </section>
 
-    <!-- CATEGORIA -->
-    <section id="category" class="screen">
-      <h2>Scegli categoria</h2>
+  <!-- CATEGORIA -->
+  <section id="category" class="screen">
+    <h2>Scegli categoria</h2>
 
-      <button onclick="selectCategory('sportive')">🏍️ Sportive</button>
-      <button onclick="selectCategory('motocross')">🏁 Motocross</button>
-      <button onclick="selectCategory('scooter')">🛵 Scooter</button>
+    <button onclick="selectCategory('sportive')">🏍️ Sportive</button>
+    <button onclick="selectCategory('motocross')">🏁 Motocross</button>
+    <button onclick="selectCategory('scooter')">🛵 Scooter</button>
 
-      <button onclick="backRegions()">Indietro</button>
-    </section>
+    <button onclick="backRegions()">Indietro</button>
+  </section>
 
-    <!-- ANALISI -->
-    <section id="analysis" class="screen">
-      <h2 id="title"></h2>
+  <!-- ANALISI -->
+  <section id="analysis" class="screen">
+    <h2 id="title"></h2>
 
-      <img id="img" />
-      <h3 id="name"></h3>
-      <p id="desc"></p>
+    <img id="img" />
+    <h3 id="name"></h3>
+    <p id="desc"></p>
 
-      <div id="stats"></div>
+    <div id="stats"></div>
 
-      <button onclick="backCategory()">Indietro</button>
-    </section>
+    <button onclick="backCategory()">Indietro</button>
+  </section>
 
-  </div>
+</div>
 
-  <script src="js/app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
